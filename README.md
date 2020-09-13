@@ -1,2 +1,3 @@
 # emacs
-My emacs config files
+My emacs config files:
+- solarized theme
