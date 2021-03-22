@@ -23,6 +23,8 @@
       tab-width 8
       indent-tabs-mode t)
 
+(setq js-indent-level 2)
+
 (require 'whitespace)
 (setq whitespace-style '(face empty lines-tail trailing))
 (global-whitespace-mode t)
