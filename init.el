@@ -1,7 +1,6 @@
+;; Adds Melpa packages
 (require 'package)
-
-;; Add melpa package source when using package list
-(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
+(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 
 ;; Load emacs packages and activate them
 ;; This must come before configurations of installed packages.
@@ -30,3 +29,15 @@
 (global-whitespace-mode t)
 
 (setq column-number-mode t)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages (quote (flycheck puppet-mode solarized-theme))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
